@@ -1,6 +1,6 @@
 # 3007 - Sites Responsivos
 
-> Repositório do curso Sites Responsivos da plataforma [balta.io](https://balta.io)
+> Repositório do curso Crie Sites Responsivos da plataforma [balta.io](https://balta.io)
 
 Contém códigos de exemplos desenvolvidos durante as aulas.
 
