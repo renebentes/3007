@@ -11,6 +11,10 @@ Você pode encontrar os originais em:
 
 ## Tecnologias Utilizadas
 
+- [HTML 5](https://developer.mozilla.org/html)
+- [CSS 3](https://developer.mozilla.org/css)
+- [Visual Studio Code](https://code.visualstudio.com)
+
 ## Divisão do Código
 
 Há links específicos para cada commit de finalização de uma aula.
