@@ -15,15 +15,6 @@ Você pode encontrar os originais em:
 - [CSS 3](https://developer.mozilla.org/css)
 - [Visual Studio Code](https://code.visualstudio.com)
 
-## Divisão do Código
-
-Há links específicos para cada commit de finalização de uma aula.
-
-### Lista de Aulas
-
-| Aulas | Descrição |
-| ----- | --------- |
-
 ## Autor
 
 [Rene Bentes Pinto](http://github.com/renebentes)
