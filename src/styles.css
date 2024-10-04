@@ -103,3 +103,12 @@ section {
     color: #fff;
     font-size: 1.2rem;
 }
+
+/* Media Queries */
+
+@media (max-width: 600px) {
+    body {
+        background: #2e354f;
+        color: white;
+    }
+}
