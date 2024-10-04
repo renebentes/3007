@@ -78,6 +78,11 @@ section {
 
 .container {
     width: 90%;
+
+    /* Informa até quanto pode redimensionar um conteúdo */
+    max-width: 620px;
+    /* min-width: 300px; */
+
     margin: 0 auto;
     border: 2px solid magenta;
 }
