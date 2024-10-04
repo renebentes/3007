@@ -1,11 +1,13 @@
 html {
     font-size: 20px;
 }
+
 body {
+    background: #8625d2;
     margin: 0;
-    font-size: 10px;
     font-family: "Lato", sans-serif;
-    color: #2e354f;
+    color: #fff;
+    text-align: center;
 }
 
 h1,
@@ -18,7 +20,6 @@ strong {
 
 h1 {
     font-size: 2rem;
-    margin: 0;
 }
 
 h2 {
@@ -84,14 +85,25 @@ section {
 }
 
 .container {
-    width: 90%;
-
-    /* Informa até quanto pode redimensionar um conteúdo */
-    max-width: 620px;
-    /* min-width: 300px; */
-
+    border: 10px solid #ff508f;
+    max-width: 600px;
     margin: 0 auto;
-    border: 2px solid magenta;
+    padding: 0.25em;
+    display: flex;
+
+    /* Substitui as propriedades explícitas
+    flex-flow: column wrap;
+    */
+
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.item {
+    background: #11d15e;
+    margin: 0.5em;
+    padding: 0.5em;
+    color: #2e354f;
 }
 
 .section-one {
@@ -102,13 +114,4 @@ section {
     background: #8625d2;
     color: #fff;
     font-size: 1.2rem;
-}
-
-/* Media Queries */
-
-@media (max-width: 600px) {
-    body {
-        background: #2e354f;
-        color: white;
-    }
 }
