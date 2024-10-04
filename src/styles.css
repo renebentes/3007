@@ -36,6 +36,11 @@ img {
     width: 100%;
 }
 
+ul {
+    /* Corresponde a 150% */
+    font-size: 1.5em;
+}
+
 /* Buttons */
 
 .btn {
@@ -85,6 +90,10 @@ section {
 
     margin: 0 auto;
     border: 2px solid magenta;
+}
+
+.section-one {
+    font-size: 30px;
 }
 
 .section-two {
