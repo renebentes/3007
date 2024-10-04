@@ -32,6 +32,10 @@ a:focus {
     color: #d4b44c;
 }
 
+img {
+    width: 100%;
+}
+
 /* Buttons */
 
 .btn {
