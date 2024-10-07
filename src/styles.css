@@ -156,23 +156,15 @@ section {
 
 .grid {
     display: grid;
-    grid-template: 100px 100px 100px / 200px 200px 200px;
+    grid-template-columns: 1fr 150px 150px;
 }
 
 .grid-item {
     background: #b823c1;
     color: #fff;
     padding: 1em 2em;
-    border: 2px solid #ff508f;
+    border: 2px solid purple;
     display: flex;
     align-items: center;
     justify-content: center;
-
-    grid-column: 1 / 4;
-    /* grid-column-start: 1;
-    grid-column-end: 4; */
-
-    grid-row: 2 / 3;
-    /* grid-row-start: 2;
-    grid-row-end: 3; */
 }
