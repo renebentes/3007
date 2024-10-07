@@ -154,9 +154,25 @@ section {
     font-size: 1.2rem;
 }
 
-.container-grid {
+.grid {
     display: grid;
-    /* grid-template-columns: 100px 100px 50px;
-    grid-template-rows: 50px 100px 200px; */
-    grid-template: 50px 100px 200px / 100px 100px 50px;
+    grid-template: 100px 100px 100px / 200px 200px 200px;
+}
+
+.grid-item {
+    background: #b823c1;
+    color: #fff;
+    padding: 1em 2em;
+    border: 2px solid #ff508f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    grid-column: 1 / 4;
+    /* grid-column-start: 1;
+    grid-column-end: 4; */
+
+    grid-row: 2 / 3;
+    /* grid-row-start: 2;
+    grid-row-end: 3; */
 }
