@@ -89,6 +89,7 @@ section {
     max-width: 600px;
     margin: 0 auto;
     padding: 0.25em;
+    height: 200px;
     display: flex;
 
     /* Substitui as propriedades explícitas
@@ -108,7 +109,7 @@ section {
 
     /* Distribui espaçamentos igualmente entre elementos */
     justify-content: space-evenly;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .item {
@@ -133,6 +134,14 @@ section {
 .base {
     /* Garante um tamanho mínimo para o elemento */
     flex-basis: 20%;
+}
+
+.stretch {
+    align-self: stretch;
+}
+
+.end {
+    align-self: flex-end;
 }
 
 .section-one {
