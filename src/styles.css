@@ -130,6 +130,11 @@ section {
     flex-grow: 1;
 }
 
+.base {
+    /* Garante um tamanho mínimo para o elemento */
+    flex-basis: 20%;
+}
+
 .section-one {
     font-size: 30px;
 }
