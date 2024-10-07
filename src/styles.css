@@ -96,8 +96,18 @@ section {
     */
 
     flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: flex-start;
+    flex-direction: row;
+
+    /* Define espaçamentos ao redor dos elementos mas
+    que podem ser diferentes entre si
+    justify-content: space-around;  */
+
+    /* Define espaçamentos entre elementos, ignorando as
+    margens inicial e final
+    justify-content: space-between;  */
+
+    /* Distribui espaçamentos igualmente entre elementos */
+    justify-content: space-evenly;
     align-items: flex-end;
 }
 
