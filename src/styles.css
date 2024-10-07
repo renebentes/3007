@@ -118,6 +118,18 @@ section {
     color: #2e354f;
 }
 
+.item-1 {
+    background: plum;
+
+    /* Força a redução de tamanho do elemento */
+    flex-shrink: 1;
+}
+
+.item-2 {
+    /* Força o aumento de tamanho para elemento */
+    flex-grow: 1;
+}
+
 .section-one {
     font-size: 30px;
 }
