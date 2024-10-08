@@ -156,12 +156,27 @@ section {
 
 .grid {
     display: grid;
-    grid-template-columns: 150px 150px;
-    align-items: start;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-areas:
+        "header header header"
+        "sidebar content content"
+        "footer footer footer";
+}
 
-    gap: 1em 2em;
-    /* grid-column-gap: 2em;
-    grid-row-gap: 1em; */
+.header {
+    grid-area: header;
+}
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+.content {
+    grid-area: content;
+}
+
+.footer {
+    grid-area: footer;
 }
 
 .grid-item {
