@@ -14,3 +14,12 @@ body {
     font-size: 2em;
     font-weight: 400;
 }
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+.main {
+    background-image: url("images/background.png");
+}
