@@ -6,7 +6,7 @@ Contém códigos de exemplos desenvolvidos durante as aulas.
 
 Você pode encontrar os originais em:
 
-- [balta.ion](https://balta.io/cursos/crie-sites-responsivos)
+- [balta.io](https://balta.io/cursos/crie-sites-responsivos)
 - [GitHub](https://github.com/balta-io/3007)
 
 ## Tecnologias Utilizadas
