@@ -27,6 +27,11 @@ body {
     text-align: center;
 }
 
+.secondary {
+    align-items: center;
+    margin: 0 10em;
+}
+
 .container-wrapper {
     margin: 0 6em;
 }
@@ -57,4 +62,22 @@ body {
 .btn-outline {
     background-color: transparent;
     border: 2px solid var(--white-color);
+}
+
+.secondary-image {
+    width: 80%;
+}
+
+.secondary-description {
+    padding: 2em;
+}
+
+.secondary-title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0.1em;
+}
+
+.secondary-body {
+    color: var(--gray-color);
 }
