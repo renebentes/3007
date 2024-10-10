@@ -32,24 +32,24 @@ body {
     margin: 0 10em;
 }
 
-.container-wrapper {
+.main-wrapper {
     margin: 0 6em;
 }
 
-.title {
+.main-title {
     font-size: 28px;
     font-weight: 700;
 }
 
-.note {
+.main-note {
     font-size: 12px;
 }
 
-.image {
+.main-image {
     margin: 1em 0 2em 0;
 }
 
-.btn {
+.main-btn {
     background-color: var(--blue-button);
     border-radius: 5px;
     padding: 1em;
@@ -59,7 +59,7 @@ body {
     margin-bottom: 1em;
 }
 
-.btn-outline {
+.main-btn-outline {
     background-color: transparent;
     border: 2px solid var(--white-color);
 }
