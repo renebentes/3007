@@ -26,3 +26,35 @@ body {
     align-items: center;
     text-align: center;
 }
+
+.container-wrapper {
+    margin: 1em 0 2em 0;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.note {
+    font-size: 12px;
+}
+
+.image {
+    margin: 1em 0 2em 0;
+}
+
+.btn {
+    background-color: var(--blue-button);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--white-color);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.btn-outline {
+    background-color: transparent;
+    border: 2px solid var(--white-color);
+}
