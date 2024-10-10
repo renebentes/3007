@@ -18,8 +18,11 @@ body {
 .container {
     display: grid;
     grid-template-columns: repeat(2, 50%);
+    height: 100vh;
 }
 
 .main {
     background-image: url("images/background.png");
+    align-items: center;
+    text-align: center;
 }
