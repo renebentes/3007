@@ -82,3 +82,18 @@ body {
 .secondary-body {
     color: var(--gray-color);
 }
+
+.third {
+    text-align: center;
+}
+
+.third-title {
+    font-size: 48px;
+}
+
+.third-devices {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
