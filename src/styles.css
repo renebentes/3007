@@ -127,6 +127,20 @@ footer {
     margin-left: 1em;
 }
 
+.footer-links a:hover {
+    color: var(--blue-button-effect);
+}
+
+.footer-links a:hover {
+    color: var(--blue-button);
+}
+
+footer p {
+    margin: 1em 0;
+    color: var(--gray-color);
+    font-size: 14px;
+}
+
 @media screen and (max-width: 768px) {
     .container {
         display: block;
