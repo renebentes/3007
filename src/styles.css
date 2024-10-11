@@ -126,3 +126,32 @@ footer {
     color: var(--white-color);
     margin-left: 1em;
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        display: block;
+    }
+
+    .main {
+        background-image: none;
+    }
+
+    .main-wrapper {
+        margin: 2em;
+    }
+
+    .main-image,
+    .secondary-image {
+        width: 50vw;
+    }
+
+    .secondary {
+        margin: 0;
+        text-align: center;
+    }
+
+    .third-devices,
+    .footer-links {
+        display: block;
+    }
+}
